@@ -22,10 +22,8 @@ public class CClass {
 
     public void name1(List<String> list) {
 
-      /*  AClass aClass = new AClass();
-        aClass.getColors();*/
+
         try {
-        //List<String> newColors = aClass.getColors();
         for (int i = 0; i < list.size(); i++) {
             String temp = list.get(i);
             LOG.info("=========");
