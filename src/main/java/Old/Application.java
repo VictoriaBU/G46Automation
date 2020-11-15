@@ -34,21 +34,3 @@ public class Application {
     }
 
 }
-/* hw01b.printList(hw01a.list());
-
-        //Домашнее задание №2
-        LOG.info("Вызов из экземпляра класса А, null");
-        hw01a.splitList(null);
-        LOG.info("Вызов из экземпляра класса B, лист из экземпляра класса А");
-        hw01b.splitList(hw01a.list());
-        LOG.info("Вызов из экземпляра класса B, new ArrayList<String>()");
-        List<String> inputlist=new ArrayList<>();
-        hw01b.splitList(inputlist);
-        LOG.info("==Конец==");*/
-
-  /* objectA.charMethod(null);
-           System.out.println("--------------");
-           objectB.charMethod(objectA.firstMethod());
-           System.out.println();
-           System.out.println("--------------");
-           objectB.charMethod(l);*/
