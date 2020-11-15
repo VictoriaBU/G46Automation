@@ -22,12 +22,12 @@ public class Application {
         LOG.info("==========");
         CClass c = new CClass("Какое-то Имя");
         System.out.println(c.name + ": Выведен текст");
-       //Вызов из экземпляра класса А, null
+
         a.name1(null);
-        //Вызов из экземпляра класса B, лист из экземпляра класса А
-        b.sortColors(a.getColors());
+
+        b.name1(a.getColors());
         List<String> lastList = new ArrayList<>();
-        b.sortColors(lastList);
+        b.name1(lastList);
 
 
 
