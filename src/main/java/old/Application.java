@@ -1,6 +1,5 @@
-package Old;
+package old;
 
-import Old.AClass;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
