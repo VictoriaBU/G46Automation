@@ -13,6 +13,6 @@ public class LoginPageTest extends BaseTest{
     @Test
     public void authTest(){
         page.checkAuthField()
-        .login("nva0045@gmail.com", "Bulka_1507");
+        .login("", "");
     }
 }
